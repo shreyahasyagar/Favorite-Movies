@@ -10,6 +10,7 @@ public class Create {
 	public static void createNewDatabase(String fileName) {
 
 		String url = "jdbc:sqlite:C:/sqlite/" + fileName;
+		//create the required database
 
 		try {
 			Connection conn = DriverManager.getConnection(url);
