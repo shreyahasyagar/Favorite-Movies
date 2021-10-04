@@ -39,7 +39,7 @@ public class InsertRecords {
 	public static void main(String[] args) {
 
 		InsertRecords app = new InsertRecords();
-		// insert three new rows
+		// insert five new rows
 		app.insert("The Notebook", "Ryan Gosling", "Rachel McAdams", "Nick Cassavetes", 2004);
 		app.insert("Titanic", "Leonardo DiCaprio", " Kate Winslet", "James Cameron", 1997);
 		app.insert("Rocky", "Sylvester Stallone", "Talia Shire", "John G. Avildsen", 1976);
