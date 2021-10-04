@@ -11,7 +11,7 @@ public class Connect {
 		try {
 
 			String url = "jdbc:sqlite:C:/sqlite/employees.db";
-			// create a connection to the database
+			// create a connection to the existing database to ensure successful connection
 			conn = DriverManager.getConnection(url);
 
 			System.out.println("Connection to SQLite has been established.");
